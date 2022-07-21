@@ -1,10 +1,23 @@
 .App {
   text-align: center;
 }
-
+.bgColor{
+  background: linear-gradient(to right, #f9d423 10%, #f83600 100%);
+}
+.text-dark:hover{
+  color: rgba(0, 0, 0, 0.5) !important;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.title{
+  top: 55% !important;
+  left: 31% !important;
+  width: 40%;
+}
+.mesg{
+  height: 100px !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
